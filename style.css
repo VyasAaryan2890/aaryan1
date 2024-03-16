@@ -4,7 +4,9 @@
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
+body{
 
+}
 .header {
     width: 100%;
     min-height: 97vh;
@@ -390,5 +392,62 @@ ul img {
         overflow: auto;
         border: 1px solid cadetblue;
         border-radius: 10px;
+    }
+}
+@media(max-width:345px){
+    .skill .box {
+        flex-basis: 5%;
+        height: 200px;
+        margin: 20px 7px;
+        border: 1px solid cadetblue;
+        align-items: center;
+        min-width: 130px;
+        border-radius: 5px;
+        transition: .5s;
+        box-sizing: border-box;
+    }
+    .skill .box p {
+        font-size: 17px;
+        padding: 0px 10px;
+    }
+    .skill .box button {
+        padding: 7px 35px;
+        margin: 19px auto;
+        font-size: 12px;
+        background-color: #fff;
+        border: 1px solid cadetblue;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .skill .box {
+        flex-basis: 5%;
+        height: 178px;
+        margin: 20px 7px;
+        border: 1px solid cadetblue;
+        align-items: center;
+        min-width: 130px;
+        border-radius: 5px;
+        transition: .5s;
+        box-sizing: border-box;
+    }
+    .skill .box h1 {
+        padding: 12px 0px;
+        font-size: 22px;
+    }
+    .con h2 {
+        font-size: 51px;
+        margin-bottom: 15px;
+        color: cadetblue;
+    }
+    .con p {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .con img {
+        padding: 10px 10px;
+        cursor: pointer;
+        width: 47px;
+        justify-content: center;
     }
 }

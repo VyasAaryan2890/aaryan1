@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vyas Aaryan</title>
+    <title>Vyas Aaryan	</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -89,11 +89,12 @@
         <div class="contact">
             <h1>Contact</h1>
             <div class="form">
-                <form>
-                    <input type="text" placeholder="Name" required class="input"><br>
-                    <input type="Eamil" placeholder="Eamil" required class="input"><br>
-                    <input type="tel" placeholder="Mobile" required class="input"><br>
-                    <input type="text" placeholder="Write Your Message" required class="input"><br>
+                <form action="https://api.web3forms.com/submit" method="POST">
+				<input type="hidden" name="access_key" value="65542a48-5af4-434b-9a15-bf2acbe52b07">
+                    <input type="text" placeholder="Name" required class="input" name="name"><br>
+                    <input type="Eamil" placeholder="Eamil" required class="input" name="email"><br>
+                    <input type="tel" placeholder="Mobile" required class="input" name="mobile"><br>
+                    <input type="text" placeholder="Write Your Message" required class="input" name="your message"><br>
                     <input type="submit" value="Submit" class="btn">
                 </form>
             </div>
